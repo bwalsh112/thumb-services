@@ -1,98 +1,57 @@
+/* This example requires Tailwind CSS v2.0+ */
 import React from 'react'
-import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+const navigation = [
+  { name: 'Product', href: '/contact' },
+  // { name: 'Pricing', href: '#' },
+  // { name: 'Docs', href: '#' },
+  // { name: 'Company', href: '#' },
+]
 
-const Navbar = class extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      active: false,
-      navBarActiveClass: '',
-    }
-  }
-
-  toggleHamburger = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
-      }
-    )
-  }
-
-  render() {
-    return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
+export default function Navbar() {
+  return (
+    <header className="bg-indigo-600">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
+        <div className="w-full py-6 flex items-center justify-between border-b border-indigo-500 lg:border-none">
+          <div className="flex items-center">
+            <a href="/">
+              <span className="sr-only">Workflow</span>
+              <img
+                className="h-10 w-auto"
+                src="https://tailwindui.com/img/logos/workflow-mark.svg?color=white"
+                alt=""
+              />
+            </a>
+            <div className="hidden ml-10 space-x-8 lg:block">
+              {navigation.map((link) => (
+                <a key={link.name} href={link.href} className="text-base font-medium text-white hover:text-indigo-50">
+                  {link.name}
+                </a>
+              ))}
             </div>
           </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
+          <div className="ml-10 space-x-4">
+            {/* <a
+              href="#"
+              className="inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75"
+            >
+              Sign in
+            </a> */}
+            <a
+              href="/contact"
+              className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50"
+            >
+              Sign up
+            </a>
           </div>
         </div>
+        <div className="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
+          {navigation.map((link) => (
+            <a key={link.name} href={link.href} className="text-base font-medium text-white hover:text-indigo-50">
+              {link.name}
+            </a>
+          ))}
+        </div>
       </nav>
-    )
-  }
+    </header>
+  )
 }
-
-export default Navbar
