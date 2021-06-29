@@ -71,7 +71,7 @@ collections:
                   { label: Blurb, name: blurb, widget: text },
                   {
                     label: Features,
-                    name: feature,
+                    name: features,
                     widget: list,
                     fields: [{ label: Text, name: text, widget: text }],
                   },

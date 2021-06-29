@@ -19,7 +19,7 @@ feature:
   header: Test
   boldHeader: Test
   blurb: Testing more
-  feature:
+  features:
     text: Can you test this
 intro:
   blurbs:
