@@ -20,7 +20,7 @@ feature:
   boldHeader: Test
   blurb: Testing more
   features:
-    text: Can you test this
+    - text: Can you test this
 intro:
   blurbs:
     - image: /img/coffee.png

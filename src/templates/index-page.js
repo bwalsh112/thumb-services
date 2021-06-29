@@ -13,11 +13,12 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
+  feature,
   intro,
 }) => (
   <div>
     <Hero></Hero>
-    <Features gridItems={intro.blurbs} />
+    <Features feature={feature} />
     {/* <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -57,6 +58,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        feature={frontmatter.feature}
       />
     </Layout>
   );
