@@ -72,7 +72,7 @@ collections:
                   {
                     label: Features,
                     name: feature,
-                    widget: object,
+                    widget: list,
                     fields: [{ label: Text, name: text, widget: text }],
                   },
                 ],
