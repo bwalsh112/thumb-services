@@ -63,7 +63,7 @@ collections:
           - {
               label: Feature,
               name: feature,
-              widget: feature,
+              widget: object,
               fields:
                 [
                   { label: Header, name: header, widget: string },
