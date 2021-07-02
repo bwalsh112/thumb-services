@@ -8,7 +8,8 @@ mainpitch:
   title: Data to enrich your
   colorText: online business
   description: >
-    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
+    cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
@@ -19,13 +20,23 @@ feature:
   texting: Testing more
   features:
     - name: TEST
-      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. 
+      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque
+        rhoncus. Et magna sit morbi lobortis.
     - name: TEST
-      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. 
+      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque
+        rhoncus. Et magna sit morbi lobortis.
     - name: TEST
-      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. 
+      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque
+        rhoncus. Et magna sit morbi lobortis.
     - name: TEST
-      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. 
+      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque
+        rhoncus. Et magna sit morbi lobortis.
+    - name: Update
+      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque
+        rhoncus. Et magna sit morbi lobortis. Here is more description
+    - name: One More Feature
+      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque
+        rhoncus. Et magna sit morbi lobortis. Test the CMS
 intro:
   blurbs:
     - image: /img/coffee.png
