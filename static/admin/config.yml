@@ -56,6 +56,7 @@ collections:
               fields:
                 [
                   { label: Title, name: title, widget: string },
+                  { label: Color Text, name: colorText, widget: text },
                   { label: Description, name: description, widget: text },
                 ],
             }
@@ -68,12 +69,12 @@ collections:
                 [
                   { label: Header, name: header, widget: string },
                   { label: Bold Header, name: boldHeader, widget: string },
-                  { label: Blurb, name: blurb, widget: text },
+                  { label: Texting, name: texting, widget: text },
                   {
                     label: Features,
                     name: features,
                     widget: list,
-                    fields: [{ label: Title, name: title, widget: string }, { label: Text, name: text, widget: text }, { label: Icon, name: icon, widget: string }],
+                    fields: [{ label: name, name: name, widget: string }, { label: Feature Description, name: featureDescription, widget: text }],
                   },
                 ],
             }

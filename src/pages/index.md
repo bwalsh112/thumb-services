@@ -5,12 +5,10 @@ image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
+  title: Data to enrich your
+  colorText: online business
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
@@ -18,9 +16,16 @@ description: Kaldi is the ultimate spot for coffee lovers who want to learn
 feature:
   header: Test
   boldHeader: Test
-  blurb: Testing more
+  texting: Testing more
   features:
-    - text: Can you test this
+    - name: TEST
+      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. 
+    - name: TEST
+      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. 
+    - name: TEST
+      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. 
+    - name: TEST
+      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. 
 intro:
   blurbs:
     - image: /img/coffee.png

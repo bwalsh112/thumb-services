@@ -17,7 +17,7 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <Hero></Hero>
+    <Hero mainpitch={mainpitch}></Hero>
     <Features feature={feature} />
     {/* <section className="section section--gradient">
       <div className="container">
@@ -91,14 +91,16 @@ export const pageQuery = graphql`
         mainpitch {
           title
           description
+          colorText
         }
         description
         feature {
           header
           boldHeader
-          blurb
+          texting
           features {
-            text
+            name
+            featureDescription
           }
         }
         intro {
