@@ -32,7 +32,7 @@ export default function Features(props) {
           {props.feature.boldHeader}
         </p>
         <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-          {props.feature.text}
+          {props.feature.texting}
         </p>
         <div className="mt-12">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
