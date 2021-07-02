@@ -5,38 +5,35 @@ image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Data to enrich your
-  colorText: online business
-  description: >
-    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-    cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+  title: Find and hire the best
+  colorText: tech firms
+  description: Let us introduce you to and help you hire the right pre-vetted and
+    verified digital marketing providers from our network, hand-selected for
+    your unique needs.
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
   knowledge to anyone.
 feature:
-  header: Test
-  boldHeader: Test
-  texting: Testing more
+  header: Welcome to Credo.
+  boldHeader: See what we offer below.
+  texting: We realize every project is different.  We offer a variety of services
+    to help meet your needs and create the project of your dreams.
   features:
-    - name: TEST
-      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque
-        rhoncus. Et magna sit morbi lobortis.
-    - name: TEST
-      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque
-        rhoncus. Et magna sit morbi lobortis.
-    - name: TEST
-      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque
-        rhoncus. Et magna sit morbi lobortis.
-    - name: TEST
-      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque
-        rhoncus. Et magna sit morbi lobortis.
-    - name: Update
-      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque
-        rhoncus. Et magna sit morbi lobortis. Here is more description
-    - name: One More Feature
-      featureDescription: Ac tincidunt sapien vehicula erat auctor pellentesque
-        rhoncus. Et magna sit morbi lobortis. Test the CMS
+    - name: Infrastructure
+      featureDescription: We know the cloud has changed the game.  Let us figure out
+        what infrastructure you need
+    - name: Privacy
+      featureDescription: Privacy is a human right now a days.  Let us lead you
+        through the sticky legal environment of privacy
+    - name: Reusability
+      featureDescription: ke sure what is built is reusable for you
+    - name: Security
+      featureDescription: Be proactive and protect your company from a breach before you even begin
+    - name: Services
+      featureDescription: We explain what a good services architecture can look like
+    - name: Data
+      featureDescription: Data is the foundation of everything now a days.  Let us think data first
 intro:
   blurbs:
     - image: /img/coffee.png
