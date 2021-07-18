@@ -9,6 +9,8 @@ import {
 } from "@heroicons/react/outline";
 import * as Icons from "@heroicons/react/outline";
 import React from "react";
+import { Link } from 'gatsby'
+
 
 const features = [
   { name: "Push to Deploy", icon: CloudUploadIcon },
@@ -37,27 +39,32 @@ export default function Features(props) {
         <div className="mt-12">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {props.feature.features.map((feature, index) => {
-              const featureIconIndex = index % 6
-              const featureIcon = features[featureIconIndex]
+              const featureIconIndex = index % 6;
+              const featureIcon = features[featureIconIndex];
               return (
-                <div key={feature.name} className="pt-6">
-                  <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                    <div className="-mt-6">
-                      <div>
-                        <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
-                          {/* {Icons['CloudUploadIcon']} */}
-                          <featureIcon.icon className="h-6 w-6 text-white" aria-hidden="true" />
-                        </span>
+                <Link to={`/contact?service=${feature.name.toLowerCase()}`}>
+                  <div key={feature.name} className="pt-6 cursor-pointer">
+                    <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                      <div className="-mt-6">
+                        <div>
+                          <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
+                            {/* {Icons['CloudUploadIcon']} */}
+                            <featureIcon.icon
+                              className="h-6 w-6 text-white"
+                              aria-hidden="true"
+                            />
+                          </span>
+                        </div>
+                        <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                          {feature.name}
+                        </h3>
+                        <p className="mt-5 text-base text-gray-500">
+                          {feature.featureDescription}
+                        </p>
                       </div>
-                      <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
-                        {feature.name}
-                      </h3>
-                      <p className="mt-5 text-base text-gray-500">
-                        {feature.featureDescription}
-                      </p>
                     </div>
                   </div>
-                </div>
+                </Link>
               );
             })}
           </div>
