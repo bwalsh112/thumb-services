@@ -7,7 +7,7 @@ mainpitch:
     verified digital marketing providers from our network, hand-selected for
     your unique needs.
 feature:
-  header: Welcome to Credo.
+  header: Welcome to Find The Right Agency.
   boldHeader: See what we offer below.
   texting: We realize every project is different.  We offer a variety of services
     to help meet your needs and create the project of your dreams.
