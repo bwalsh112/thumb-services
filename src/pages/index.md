@@ -2,10 +2,10 @@
 templateKey: index-page
 mainpitch:
   title: Find and hire the best
-  colorText: tech firms
+  colorText: Tech Firms
   description: Let us introduce you to and help you hire the right pre-vetted and
-    verified digital marketing providers from our network, hand-selected for
-    your unique needs.
+    verified developer shops from our network, hand-selected for your unique
+    needs.
 feature:
   header: Welcome to Find The Right Agency.
   boldHeader: See what we offer below.
