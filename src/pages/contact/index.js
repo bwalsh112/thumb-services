@@ -37,7 +37,7 @@ export default class Index extends React.Component {
     console.log(e, "checking");
 
     try {
-      await fetch("/", {
+      await fetch("https://naughty-swartz-81e212.netlify.app/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({
