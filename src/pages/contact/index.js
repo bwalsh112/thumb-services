@@ -41,12 +41,12 @@ export default class Index extends React.Component {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({
-          "form-name": 'contacttest',
+          "form-name": "contacttest",
           ...this.state,
-          isValidated: true
+          isValidated: true,
         }),
       });
-      navigate('/contact/thanks/');
+      navigate("/contact/thanks/");
     } catch (err) {
       alert(err);
     }
@@ -69,7 +69,6 @@ export default class Index extends React.Component {
     const parameter1 = params.get("service");
     console.log(parameter1, "check");
 
-
     const onFinishFailed = (errorInfo) => {
       console.log("Failed:", errorInfo);
     };
@@ -89,6 +88,8 @@ export default class Index extends React.Component {
                 onFinish={this.handleSubmit}
                 onFinishFailed={onFinishFailed}
               >
+                <input type="hidden" name="form-name" value="pizzaOrder" />
+
                 <Form.Item
                   label="Help"
                   name="help"
