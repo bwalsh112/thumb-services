@@ -82,6 +82,8 @@ export default class Index extends React.Component {
               <h1>Get Started</h1>
               <Form
                 name="contacttest"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
                 labelCol={{ span: 8 }}
                 wrapperCol={{ span: 16 }}
                 initialValues={{ remember: true }}
