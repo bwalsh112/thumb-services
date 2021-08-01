@@ -81,14 +81,14 @@ export default class Index extends React.Component {
             <div className="content">
               <h1>Get Started</h1>
               <Form
-                name="test"
+                name="contacttest"
                 labelCol={{ span: 8 }}
                 wrapperCol={{ span: 16 }}
                 initialValues={{ remember: true }}
                 onFinish={this.handleSubmit}
                 onFinishFailed={onFinishFailed}
               >
-                <input type="hidden" name="form-name" value="pizzaOrder" />
+                <input type="hidden" name="form-name" value="contacttest" />
 
                 <Form.Item
                   label="Help"
