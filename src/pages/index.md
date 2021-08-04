@@ -36,7 +36,7 @@ feature:
         Commerce, SquareSpace, Shopify, or  your provider of choice.
     - name: Web Development
       featureDescription: We have access to world class front-end teams for React,
-        Vue, Angular, and more.
+        Angular, and more.
     - name: Mobile App Development
       featureDescription: Find iOS and Android agencies to launch and grow your mobile app ASAP.
     - name: Back End Development
