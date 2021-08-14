@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
+import Testimonials from "../components/Testimonials";
 
 export const IndexPageTemplate = ({
   image,
@@ -19,6 +20,7 @@ export const IndexPageTemplate = ({
   <div>
     <Hero mainpitch={mainpitch}></Hero>
     <Features feature={feature} />
+    <Testimonials testimonials={[]}/>
     {/* <section className="section section--gradient">
       <div className="container">
         <div className="section">
